@@ -49,7 +49,7 @@ class App extends Component {
     SquareAPI.search({
       near:"Visakhapatnam, Andhra Pradesh", //place to show in map
       query:"food", //food, drinks, coffee, shops, arts, outdoors, sights, trending, nextVenues
-      limit: 15 //number of marker places in map
+      limit: 6 //number of marker places in map
     }).then(results => {
       const { venues } = results.response;
         const { center } = results.response.geocode.feature.geometry;
