@@ -4,8 +4,8 @@ class Helper {
     }
     static auth(){
         const keys = {
-            client_id:"FBPRMR2QSMUGY1CKEQ1E4ONWGHAUBL0EKKOL2CGVFQNXWOVF", //foursquare client-id &
-            client_secret:"B1PCZTMNMVZXM3GSLVUDJLW24SZX4KG1YVRIT03DXNMCS3OV", //foursquare client-password
+            client_id:"H3BXYJDR4WFKKK0R0ZHRJGKXJHXK2HPITNYWXHQBFN0OWBJ4", //foursquare client-id &
+            client_secret:"Z340HQDO5TYX1Q0RF3HMIESUGUIU2PPTBDFPH0J4U3YFVU3V", //foursquare client-password
             v:"20180323" //foursquare verison
         }
         return Object.keys(keys) //all keys into array
