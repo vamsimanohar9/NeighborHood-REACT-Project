@@ -17,5 +17,5 @@ then visit localhost:5000
 [FourSquare API](https://developer.foursquare.com/docs/api/venues/details)
 
 ## Reference :-
-[Forrest Walker] (https://www.youtube.com/watch?v=ktc8Gp9jD1k&list=PL4rQq4MQP1crXuPtruu_eijgOUUXhcUCP)
-Google react map intro (https://tomchentw.github.io/react-google-maps/)
+[Forrest Walker](https://www.youtube.com/watch?v=ktc8Gp9jD1k&list=PL4rQq4MQP1crXuPtruu_eijgOUUXhcUCP)
+[Google react map intro](https://tomchentw.github.io/react-google-maps/)
