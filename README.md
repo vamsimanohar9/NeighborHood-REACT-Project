@@ -1,11 +1,11 @@
 # Visakhapatnam Neighborhood-Map
 
 ## Steps to run
-1.download or clone the repo
-2.navigate to the repo folder
-3.then install NPM
-4.after that run NPM
-5.it takes time to run and after completing it will popup in respective browser
+- 1.download or clone the repo
+- 2.navigate to the repo folder
+- 3.then install NPM
+- 4.after that NPM start
+- 5.it takes time to run and after completing it will popup in respective browser
 
 ## Offline mode
 serve -s build
