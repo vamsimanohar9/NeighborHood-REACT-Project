@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.venueList {
+  padding: 1rem;
+  overflow-y: scroll;
+}
+.listItem{
+  list-style: none;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color:pink;
+  color: red;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+
+}
