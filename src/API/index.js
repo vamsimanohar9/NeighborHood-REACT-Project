@@ -1,14 +1,14 @@
 class Helper {
     static baseURL(){
-        return "http://api.foursquare.com/v2";
+        return "http://api.foursquare.com/v2";  //baseURl for not using repeated perpose
     }
     static auth(){
         const keys = {
-            client_id:"FBPRMR2QSMUGY1CKEQ1E4ONWGHAUBL0EKKOL2CGVFQNXWOVF",
-            client_secret:"B1PCZTMNMVZXM3GSLVUDJLW24SZX4KG1YVRIT03DXNMCS3OV",
-            v:"20180323"
+            client_id:"FBPRMR2QSMUGY1CKEQ1E4ONWGHAUBL0EKKOL2CGVFQNXWOVF", //foursquare client-id &
+            client_secret:"B1PCZTMNMVZXM3GSLVUDJLW24SZX4KG1YVRIT03DXNMCS3OV", //foursquare client-password
+            v:"20180323" //foursquare verison
         }
-        return Object.keys(keys)
+        return Object.keys(keys) //all keys into array
         .map(key=> `${key}=${keys[key]}`)
         .join("&");
     }
@@ -41,12 +41,12 @@ class Helper {
 } 
 export default class SquareAPI {
     static search(urlPrams){
-        return Helper.simpleFetch("/venues/search","GET",urlPrams);
+        return Helper.simpleFetch("/venues/search","GET",urlPrams); //foursquare venue search
     }
     static getVenueDetails(VENUE_ID){
-        return Helper.simpleFetch(`/venues/${VENUE_ID}`,"GET");
+        return Helper.simpleFetch(`/venues/${VENUE_ID}`,"GET"); //foursquare venues fetch
     }
     static getVenuePhotos(VENUE_ID){
-        return Helper.simpleFetch(`/venues/${VENUE_ID}/photos`,"GET"); 
+        return Helper.simpleFetch(`/venues/${VENUE_ID}/photos`,"GET"); //foursquare photo fetch
     }
 }

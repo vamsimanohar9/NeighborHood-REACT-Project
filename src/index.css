@@ -7,7 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -26,5 +25,6 @@ code {
   color: red;
   align-items: center;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  
 
 }
